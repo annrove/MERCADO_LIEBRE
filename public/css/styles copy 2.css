@@ -1,0 +1,109 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 12px;
+}
+div.top-header{
+    padding: 5px;
+}
+header{
+    background-color:#EAC926;
+}
+header div.logo{
+    width: 50%;
+    padding: 10px;
+}
+header nav{
+    font-size: 12px;
+    padding-left: 10px ;
+}
+header ul li{
+    list-style-type: none;
+    font-size: 14px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+       
+}
+header div.menu-cliente{
+    padding-top: 15px;
+}
+header .form .imput{
+    background-color: #fff;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+header .form .submit{
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #666;
+    width: 5%;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+div.hamburguer-button{
+    text-align: center;
+}
+div.hamburguer-button i{
+    background-color: #0044aa;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    height: 20px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 20px;
+}
+footer div.footer h4{
+    text-align: center;
+    padding: 2px;
+}
+footer div.footer p{
+    text-align: center;
+    padding: 5px;
+}
+footer div.credit-card{
+    text-align: center;
+    padding: 5px;
+    color: #0044aa;
+    font-size: 30px;
+}
+footer div.gifts{
+    text-align: center;
+    padding: 5px;
+    color: #0044aa;
+    font-size: 30px;
+}
+.products{
+    width: 90%;
+    margin: auto;
+}
+.products article{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main section article div{
+    border-top: solid 1px red;
+    padding: 15px;
+}

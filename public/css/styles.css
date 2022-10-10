@@ -1,5 +1,4 @@
 *{
-    margin: 0px;
     padding: 0px;    
     box-sizing: border-box;
 }
@@ -70,17 +69,22 @@ header ul li a{
 
 header .form .input{
     background-color: #FFF;
-    border: 1px solid #000;
+    border: none;
     outline: none;
     color: #666;
     padding: 2px;
 }
 
 header .form .submit{
-    background-color: #FFF;
-    border: 1px solid #000;
+    border: none;
     color: #666;
-    width: 10%;
+    width: 10%;    
+}
+.fa-search{
+    font-size: 20px;
+    line-height: 18px;
+    display: inline;
+    color: #aaa;
 }
 
 div.burger-menu{
@@ -228,11 +232,32 @@ section div i:hover {
     width: 33.3333333%;  
 }
 
+.bottom-form{
+    display: flex;
+    justify-content: center;
+}
+.boton-formulario{
+    width: 50%;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    
+}
 .boton-formulario:hover {
     background-color: #0022aa;
     box-shadow: 0 0 10px #0022AA, 0 0 10px #0022AA, 0 0 10px #0022AA;
 }
-    
+.create-form{
+    padding: 20px;
+}
+.control-form{
+    margin-bottom: 15px;
+}
+.control{
+    width: 100%;
+    padding: 8px;
+}    
 @media (min-width: 361px){
     main section article .description {
         display: block;
@@ -263,10 +288,103 @@ section div i:hover {
     .discount{
         width: 50%;
     }
+    header .form .input{
+        background-color: #FFF;
+        border: none;
+        outline: none;
+        color: #666;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        border-radius: 3px;
+        justify-content: center;
+        width: 100%;   
+        
+    }
+        header .form .submit{
+        
+        border: none;
+        color: #666;
+        position: absolute;
+        top: 10;
+        
+        padding-bottom: 15px;
+        width: 5%;
+        background: none;
+        font-size: 15px;
+        color: #666;
+        line-height: 1em;
+    }
+    .fa-search{
+        font-size: 20px;
+        line-height: 18px;
+        display: inline;
+        color: #aaa;
+    }
 }    
 
 @media (min-width: 769px){
     main section div.products article{
         width: 22%;
+    }
+    .main-header-top-bar{
+        width: 100%;    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .logo{
+        width: 180px; 
+    }
+       
+    .copy-header{
+        max-width: 400px;
+        
+        text-align: right;
+    }
+    .hamburguer-button{
+        display: none;
+    }
+    .main-header-navbar {
+        display: flex;
+        
+        justify-content: space-between;
+    }
+    .main-header-navbar ul{
+        display: flex;
+    }
+    .main-header-navbar li{
+        margin: 0 5px;
+    }
+    header .form .input{
+        background-color: #FFF;
+        border: none;
+        outline: none;
+        color: #666;
+        padding: 15px;
+        border-radius: 7px;
+        text-align: center;  
+        
+    }
+    
+    header .form .submit{
+        
+        border: none;
+        color: #666;
+        position: absolute;
+        top: 10;
+        
+        padding: 0px;
+        width: 5%;
+        background: none;
+        font-size: 15px;
+        color: #666;
+        line-height: 1em;
+    }
+    .fa-search{
+        font-size: 20px;
+        line-height: 18px;
+        display: inline;
+        color: #aaa;
     }
 }
