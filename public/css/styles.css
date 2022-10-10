@@ -41,7 +41,7 @@ header{
 
 header div.logo,
 header .form{
-    width: 50%;
+    width: 60%;
 }
 
 header div.logo{
@@ -56,6 +56,7 @@ header .form{
 header nav{
     font-size: 12px;
     margin-left: 20px;
+    display: none;
 }
 
 header ul li{
@@ -68,11 +69,15 @@ header ul li a{
 }
 
 header .form .input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     background-color: #FFF;
+    border-radius: 3px;
     border: none;
-    outline: none;
+   
     color: #666;
-    padding: 2px;
+    padding: 3px;
 }
 
 header .form .submit{
@@ -254,10 +259,38 @@ section div i:hover {
 .control-form{
     margin-bottom: 15px;
 }
+
+.control-form label{
+    margin-bottom: 5px;
+  
+    display: block;
+}
+
 .control{
     width: 100%;
     padding: 8px;
-}    
+}
+
+header .form .submit{
+        
+    border: none;
+    color: #666;
+    position: absolute;
+    top: 10;
+    
+    width: 5%;
+    background: none;
+    font-size: 15px;
+    color: #666;
+    line-height: 1em;
+}
+.fa-search{
+    font-size: 15px;
+    line-height: 18px;
+    display: inline;
+    color: #aaa;
+}
+
 @media (min-width: 361px){
     main section article .description {
         display: block;
@@ -300,26 +333,7 @@ section div i:hover {
         width: 100%;   
         
     }
-        header .form .submit{
         
-        border: none;
-        color: #666;
-        position: absolute;
-        top: 10;
-        
-        padding-bottom: 15px;
-        width: 5%;
-        background: none;
-        font-size: 15px;
-        color: #666;
-        line-height: 1em;
-    }
-    .fa-search{
-        font-size: 20px;
-        line-height: 18px;
-        display: inline;
-        color: #aaa;
-    }
 }    
 
 @media (min-width: 769px){

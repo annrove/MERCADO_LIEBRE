@@ -7,6 +7,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="css/styles.css">
+        <script src="https://kit.fontawesome.com/32506546b7.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -39,19 +40,20 @@
         </header>
         <main class="register">
             <form action="/" method="POST">
-                <input type="text" name="name" placeholder="Nombre y apellido">
-                <input type="text" name="user" placeholder="Nombre de usuario">
-                
-                <br>
-                <label for="birth_date"><b>Fecha de nacimiento</b></label>
-                <br>
-                <input type="date" name="birth_date" id="birth_date">
-                <br>
+                <div class="control-form">
+                    <input type="text" name="name" placeholder="Nombre y apellido">
+                    <input type="text" name="user" placeholder="Nombre de usuario">
+                </div>
+                <div class="control-form">    
+                    <label for="birth_date"><b>Fecha de nacimiento</b></label>
+                    <input type="date" name="birth_date" id="birth_date">
+                </div>
                 <input type="text" name="addres" placeholder="Domicilio">
                 <h4>Perfil del usuario</h4>
                 <div class="profile">
                     <input type="radio" name="profile" value="buy" id="buy">
                     <label for="buy">Comprador</label>
+                    
                     <input type="radio" name="profile" value="sell" id="sell">
                     <label for="sell">Vendedor</label>
                 </div>
